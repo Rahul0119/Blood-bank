@@ -1,0 +1,41 @@
+STEP 1 : Identifying the entities
+
+1.	Donor
+2.	Blood
+3.	Receptionist
+4.	Blood Bank
+5.	Blood Bank Manager
+6.	Hospital
+
+STEP 2 : Identify the relationships.
+
+1.A donor may donate blood any number of times. So cardinality is 1:N.
+2.Many donors may register blood donation with a single receptionist. So cardinality is N:1.
+3.Blood of different type in large numbers is stored in a single Blood Bank . So cardinality is N:1.
+4.Blood Bank is managed by an blood bank -manager. So cardinality is 1:1.
+5. A receptionist works in a Blood Bank . So cardinality is 1:1.
+6. Hospitals may order blood from different Blood Banks . So cardinality is N:M.
+
+erdj
+
+STEP 3 : Identify the key attributes.
+
+1. Donor – donor id(DID)
+2.Blood – code
+3.Receptionist – employee id(empid)
+4.Blood Bank–Blood Bank number(BNO)
+5.Blood Bank Manager – employee id(empid)
+6.Hospital – name, phone number(phno)
+
+STEP 4 : Identify other relevant attributes
+
+1. Donor – name, age, sex, address, phone number(phno)
+2. Blood – blood type,cost
+3. Receptionist – name, address, phone number(phno)
+4. Blood Bank– issues, orders , blood type
+5. Blood Bank Manager – name ,email _id , phone number(phno)
+6. Hospital-address
+
+STEP 5 : Complete the ER Diagram.
+
+finalerd
