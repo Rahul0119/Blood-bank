@@ -1,0 +1,6 @@
+BNO,Bloodtype,orders,issues
+1,A+,od01,yes
+2,A-,od02,yes
+3,B+,od03,NO
+4,AB-,OD04,YES
+5,AB+,od05,no
